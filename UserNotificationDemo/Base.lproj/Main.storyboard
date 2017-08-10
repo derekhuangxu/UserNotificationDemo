@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="9II-mm-7Nn">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="xfJ-Og-ox6">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -10,65 +10,65 @@
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="RO7-La-hvk">
+        <scene sceneID="bwR-UH-TSg">
             <objects>
-                <viewController id="9II-mm-7Nn" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="xfJ-Og-ox6" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="aZk-CZ-jTl"/>
-                        <viewControllerLayoutGuide type="bottom" id="SeC-qg-Wpd"/>
+                        <viewControllerLayoutGuide type="top" id="fuK-NK-Ka0"/>
+                        <viewControllerLayoutGuide type="bottom" id="4pP-Mt-imm"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="MdS-OO-H0d">
+                    <view key="view" contentMode="scaleToFill" id="IAE-9h-6uT">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kgd-j1-wqG">
-                                <rect key="frame" x="133.5" y="77" width="108" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wkR-Zr-VTJ">
+                                <rect key="frame" x="157" y="82" width="62" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="108" id="4kM-LE-ctr"/>
-                                    <constraint firstAttribute="height" constant="30" id="891-4d-W4t"/>
+                                    <constraint firstAttribute="height" constant="30" id="GbY-DP-g2Y"/>
+                                    <constraint firstAttribute="width" constant="62" id="SF5-k8-CDV"/>
                                 </constraints>
                                 <state key="normal" title="文字通知"/>
                                 <connections>
-                                    <action selector="btnCreateWordNotofication:" destination="9II-mm-7Nn" eventType="touchUpInside" id="8hU-Oz-ZeV"/>
+                                    <action selector="btnCreateWordNotofication:" destination="xfJ-Og-ox6" eventType="touchUpInside" id="YuH-Dp-IRy"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hMX-db-GsM">
-                                <rect key="frame" x="133.5" y="143" width="108" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9ci-dw-11R">
+                                <rect key="frame" x="123" y="133" width="130" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="108" id="JTT-D7-d2Y"/>
-                                    <constraint firstAttribute="height" constant="30" id="kw0-1R-agY"/>
+                                    <constraint firstAttribute="width" constant="130" id="Yta-Cd-Ngi"/>
+                                    <constraint firstAttribute="height" constant="30" id="hF4-Qm-Kco"/>
                                 </constraints>
                                 <state key="normal" title="图片附件通知"/>
                                 <connections>
-                                    <action selector="btnCreatePictrueNotofication:" destination="9II-mm-7Nn" eventType="touchUpInside" id="nXH-Zs-VqW"/>
+                                    <action selector="btnCreatePictrueNotofication:" destination="xfJ-Og-ox6" eventType="touchUpInside" id="kIi-cr-eaJ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6e0-VT-94W">
-                                <rect key="frame" x="133.5" y="198" width="108" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w7U-OE-e4G">
+                                <rect key="frame" x="123" y="183" width="130" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="1v9-cB-oIa"/>
-                                    <constraint firstAttribute="width" constant="108" id="INV-SA-3C7"/>
+                                    <constraint firstAttribute="width" constant="130" id="o2G-mx-8ar"/>
+                                    <constraint firstAttribute="height" constant="30" id="oxX-6C-U7k"/>
                                 </constraints>
                                 <state key="normal" title="视频附件通知"/>
                                 <connections>
-                                    <action selector="btnCreateVideoNotofication:" destination="9II-mm-7Nn" eventType="touchUpInside" id="UgY-2X-nvi"/>
+                                    <action selector="btnCreateVideoNotofication:" destination="xfJ-Og-ox6" eventType="touchUpInside" id="hTB-u9-Nx9"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="kgd-j1-wqG" firstAttribute="top" secondItem="aZk-CZ-jTl" secondAttribute="bottom" constant="57" id="AF5-oa-NgR"/>
-                            <constraint firstItem="kgd-j1-wqG" firstAttribute="centerX" secondItem="MdS-OO-H0d" secondAttribute="centerX" id="Sz1-MB-g8M"/>
-                            <constraint firstItem="hMX-db-GsM" firstAttribute="centerX" secondItem="MdS-OO-H0d" secondAttribute="centerX" id="fGG-Mf-j2j"/>
-                            <constraint firstItem="6e0-VT-94W" firstAttribute="centerX" secondItem="MdS-OO-H0d" secondAttribute="centerX" id="t1Y-2u-CMK"/>
-                            <constraint firstItem="hMX-db-GsM" firstAttribute="top" secondItem="kgd-j1-wqG" secondAttribute="bottom" constant="36" id="tiH-e1-qKl"/>
-                            <constraint firstItem="6e0-VT-94W" firstAttribute="top" secondItem="hMX-db-GsM" secondAttribute="bottom" constant="25" id="vZl-Z2-lBY"/>
+                            <constraint firstItem="9ci-dw-11R" firstAttribute="centerX" secondItem="IAE-9h-6uT" secondAttribute="centerX" id="2Id-nw-Es8"/>
+                            <constraint firstItem="wkR-Zr-VTJ" firstAttribute="top" secondItem="fuK-NK-Ka0" secondAttribute="bottom" constant="62" id="3wm-Iy-cYE"/>
+                            <constraint firstItem="w7U-OE-e4G" firstAttribute="top" secondItem="9ci-dw-11R" secondAttribute="bottom" constant="20" id="RSP-HY-Bow"/>
+                            <constraint firstItem="9ci-dw-11R" firstAttribute="top" secondItem="wkR-Zr-VTJ" secondAttribute="bottom" constant="21" id="UQW-4q-p4a"/>
+                            <constraint firstItem="wkR-Zr-VTJ" firstAttribute="centerX" secondItem="IAE-9h-6uT" secondAttribute="centerX" id="tsL-iV-tb0"/>
+                            <constraint firstItem="w7U-OE-e4G" firstAttribute="centerX" secondItem="IAE-9h-6uT" secondAttribute="centerX" id="uaI-PH-87N"/>
                         </constraints>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="R6D-yo-xf0" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uiX-8u-GlX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="414" y="138"/>
+            <point key="canvasLocation" x="-311.19999999999999" y="109.29535232383809"/>
         </scene>
     </scenes>
 </document>
